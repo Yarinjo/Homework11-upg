@@ -1,0 +1,355 @@
+:root {
+    --bgColor: rgb(243, 244, 246);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat, Sans Serif';
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 56px;
+    padding-right: 56px;
+    margin-bottom: 197px;
+}
+.header_buttons {
+    display: flex;
+}
+.header_button-sign-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px 8px 20px;
+    color: rgb(21, 105, 99);
+font-family: Nunito;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+background: #FFFFFF;
+}
+.header_button-sign-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px 8px 20px;
+    background: rgb(21, 105, 99);
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.decsription {
+    max-width: 523px;
+    margin: auto;
+    margin-bottom: 323px;
+}
+.decsription h1 {
+    color: rgb(21, 105, 99);
+    font-family: Montserrat;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 83px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.decsription h2 {
+    color: rgb(44, 21, 0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    color: #2C1500;
+}
+
+
+
+
+.advantage_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+.advantage_styles {
+   
+    flex: 0 1 calc((100% - 32px *3)/4);
+    box-sizing: border-box;
+    border: 1px solid rgb(224, 224, 224);
+    background: rgb(255, 255, 255);
+}
+.adventage_flex {
+    display: flex;
+    margin-top: 22px;
+    margin-left: 16px;
+    
+}
+.advantage_styles img {
+    margin-right: 16px;
+}
+.advantage_p {
+    color: rgb(21, 105, 99);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.advantage_p-smaller {
+    color: rgb(44, 21, 0);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 236px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 21px;
+    margin-top: 16px;
+}
+.advantage {
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.featured-plants_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.featured-plants_flowers {
+
+    flex: 0 1 calc((100% - 20px *4)/5);
+}
+.featured-plants img {
+    display: flex;
+    margin: auto;
+    background: var(--bgColor);
+}
+.featured-plants_desc {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+.featured-plants_price {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.featured-plants_container {
+    margin-left: 56px;
+    margin-right: 56px;
+}
+
+.footer {
+    display: flex;
+    background: var(--bgColor);
+    margin-left: 56px;
+    margin-right: 56px;
+    margin-top: 80px;
+    margin-bottom: 61px;
+}
+.footer_desc p {
+    color: rgb(44, 21, 0);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #2C1500;
+    max-width: 600px;
+    margin-bottom: 32px;
+}
+.footer_button {
+    display: flex;
+    max-width: 152px;
+    max-height: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(21, 105, 99);
+    background: rgb(21, 105, 99);
+    align-items: center;
+
+justify-content: center;
+}
+.footer_button a {
+    color: rgb(250, 254, 254);
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+.footer_desc {
+    margin-top: 88px;
+    margin-left: 97px;
+    margin-right: 85px;
+}
+.footer_image {
+    margin-block: auto;
+}
+
+
+@media screen and (max-width: 992px) {
+    .advantage_styles {
+   
+        flex: 0 1 calc((100% - 32px *1)/2);
+        box-sizing: border-box;
+        border: 1px solid rgb(224, 224, 224);
+        background: rgb(255, 255, 255);
+    }
+    .footer_desc p {
+        color: rgb(44, 21, 0);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 33px;
+ 
+    }
+    .footer {
+        flex-direction: column;
+        margin-bottom: 61px;
+        margin: auto;
+    }
+    .footer_button {
+        display: flex;
+        max-width: 152px;
+        max-height: 40px;
+        box-sizing: border-box;
+        border: 1px solid rgb(21, 105, 99);
+        background: rgb(21, 105, 99);
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .footer_desc {
+        margin-top: 88px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    .featured-plants_flowers {
+
+        flex: 0 1 calc((100% - 20px *1)/2);
+    }
+    .flower5 {
+        margin: auto;
+    }
+    .footer_desc p {
+        color: rgb(44, 21, 0);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #2C1500;
+    margin-bottom: 32px;
+    }
+    .decsription {
+        margin-bottom: 100px;
+    }
+    .header {
+        margin-bottom: 85px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .featured-plants_flowers {
+
+        flex: 0 1 calc((100% - 20px *0)/1);
+    }
+    .advantage_styles {
+   
+        flex: 0 1 calc((100% - 32px *0)/1);
+        box-sizing: border-box;
+        border: 1px solid rgb(224, 224, 224);
+        background: rgb(255, 255, 255);
+    }
+    .decsription {
+
+        margin: auto;
+        margin-bottom: 323px;
+        padding: 5%;
+    }
+    .decsription h1 {
+        color: rgb(21, 105, 99);
+    font-family: Montserrat;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 83px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    .decsription h2 {
+        color: rgb(44, 21, 0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    color: #2C1500;
+    }
+    .header {
+        margin-bottom: 30px;
+    }
+    .decsription {
+        margin-bottom: 35px;
+    }
+}
