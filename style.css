@@ -276,9 +276,15 @@ justify-content: center;
         margin: auto;
     }
     .footer_desc {
+        margin: auto;
         margin-top: 88px;
         margin-left: 5%;
         margin-right: 5%;
+        
+    }
+    .footer_image {
+        margin-block: auto;
+        margin: auto;
     }
 
 }
